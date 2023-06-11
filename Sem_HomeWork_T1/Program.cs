@@ -8,9 +8,13 @@ Console.WriteLine("Input second integer: ");
 int b = int.Parse(Console.ReadLine());
 
 int max = a;
+int min = b;
 
-if (a > max) max = a;
-if (b > max) max = b;
+if (a > max) max = a; min = b;
+
+if (b > max) max = b; min = a;
 
 Console.Write("max = ");
 Console.WriteLine(max);
+Console.Write("min = ");
+Console.WriteLine(min);
