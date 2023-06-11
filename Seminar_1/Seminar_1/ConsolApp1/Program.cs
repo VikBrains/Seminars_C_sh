@@ -68,17 +68,17 @@ switch (number)
 // 782 -> 2
 // 918 -> 8
 
-Console.Write("Input 3-digit integer: ")
-double number = double.Parse(Console.ReadLine());
+// Console.Write("Input 3-digit integer: ")
+// double number = double.Parse(Console.ReadLine());
 
-if (99 < number && number < 1000):
-{
-    double number_1 = number % 10;
-    Console.WriteLine($"last digit of number is: {number_1}");
-}
-else
-{
-    Console.WriteLine("Input integer is not in needed range");
-}
+// if (99 < number && number < 1000):
+// {
+//     double number_1 = number % 10;
+//     Console.WriteLine($"last digit of number is: {number_1}");
+// }
+// else
+// {
+//     Console.WriteLine("Input integer is not in needed range");
+// }
 
 

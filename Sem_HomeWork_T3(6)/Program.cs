@@ -8,7 +8,7 @@ int num = int.Parse(Console.ReadLine());
 int numen = (num % 2);
 
 if (numen == 0)
-    Console.WriteLine("your integer is even-numbered");
+    Console.WriteLine("it is even-numbered");
 
 else 
-    Console.WriteLine("your integer is NOT even-numbered");
+    Console.WriteLine("it is NOT even-numbered");
