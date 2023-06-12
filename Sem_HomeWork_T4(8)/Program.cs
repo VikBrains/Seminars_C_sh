@@ -4,7 +4,6 @@
 
 Console.Write("Input your integer: ");
 int numMax = int.Parse(Console.ReadLine());
-Console.WriteLine(numMax);
 
 int num = 2;
 

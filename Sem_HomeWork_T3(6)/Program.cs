@@ -9,6 +9,5 @@ int numen = (num % 2);
 
 if (numen == 0)
     Console.WriteLine("it is even-numbered");
-
 else 
     Console.WriteLine("it is NOT even-numbered");
