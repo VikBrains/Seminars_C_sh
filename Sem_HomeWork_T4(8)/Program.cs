@@ -8,9 +8,8 @@ Console.WriteLine(numMax);
 
 int num = 2;
 
-while (num < numMax)
+while (num <= numMax)
 {
-    Console.Write(num);
-    Console.Write(" ");
+    Console.Write(num + " ");
     num = num + 2; 
 }
