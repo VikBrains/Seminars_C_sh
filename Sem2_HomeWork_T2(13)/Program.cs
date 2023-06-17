@@ -6,7 +6,6 @@ Console.Write("Input your integer: ");
 int num_a = int.Parse(Console.ReadLine());
 int num_c = num_a;
 
-int num_b = 0;
 int count = 0;
 while (num_a != 0)
 {
@@ -17,7 +16,7 @@ while (num_a != 0)
 if (count >= 3)
 {
     int num_e = (num_c /(int)Math.Pow(10,count - 3)) % 10;
-    Console.WriteLine($"third digit of integer: {num_e}");
+    Console.WriteLine($"third digit of integer: {Math.Abs(num_e)}");
 }
 else
 {
