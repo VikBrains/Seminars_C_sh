@@ -16,8 +16,23 @@ Console.Write("Input your number: ");
 int number = int.Parse(Console.ReadLine());
 int num_0 = number;
 
-Console.WriteLine(num_0);
+//.if (number < 0)
+//.{
+//.    Console.Write("you num Not palindrom");
+//.}
 
+//.string number_str = number.ToString();
+//.if (number_str[0] == number_str[4] && number_str[1] == number_str[3])
+//.{
+//.    Console.Write("your num is palindrom");
+//.}
+//.else
+//.{
+//.    Console.Write("your num not palindrom");
+//.}
+
+
+Console.WriteLine(num_0);
 
 int result = 0;
 
