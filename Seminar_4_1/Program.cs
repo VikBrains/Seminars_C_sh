@@ -7,10 +7,10 @@
 Console.Write("Input your number: ");
 int number = int.Parse(Console.ReadLine());
 
-// Console.WriteLine("Length of number " + number.Length + "simbols");
+//Console.WriteLine($"Length of number {number.Length} simbols");
 
 double num_0 = Math.Abs(number);
-int i = 1;
+int i = 0;
 
 while (num_0 > i)
 {
@@ -18,3 +18,19 @@ while (num_0 > i)
     i++;
 }
 Console.WriteLine(i);
+
+//Задача 24: Напишите программу, которая принимает на вход число (А) и выдаёт сумму чисел от 1 до А.
+// 7 -> 28, 4 -> 10, 8 -> 36
+
+Console.Write("Input your number: ");
+int num_A = int.Parse(Console.ReadLine());
+
+int j = 0;
+int res = 0;
+while (num_A > 0)
+{
+    res = res + num_A;
+    num_A = num_A - 1;
+    j++;
+}
+Console.WriteLine(res);

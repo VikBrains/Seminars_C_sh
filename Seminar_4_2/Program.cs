@@ -13,4 +13,24 @@ while (a > 0)
     result = result * a;
     a--;
 }
-Console.Write($"Factorial number {result}");
+Console.WriteLine($"Factorial number {result}");
+
+
+// Задача 30: Напишите программу, которая выводит массив из 8 элементов, заполненный нулями и единицами в случайном порядке.
+// [1,0,1,1,0,1,0,0]
+
+//Console.Write("Input your number: ");
+//int num = int.Parse(Console.ReadLine());
+
+int[] array = new int[number];
+
+for (int i = 0; i < array.Length; i++)
+{
+    array[i] = new Random().Next(0,2);
+    Console.Write(array[i]);
+}
+
+
+
+
+//Console.Write($"Factorial number {result}");
