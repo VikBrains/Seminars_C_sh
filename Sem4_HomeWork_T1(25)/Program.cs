@@ -1,5 +1,11 @@
-﻿// Задача 33: Задайте массив. Напишите программу, которая определяет, присутствует ли заданное число в массиве.
-// 4; массив [6, 7, 19, 345, 3] -> нет
-// -3; массив [6, 7, 19, 345, 3] -> да
+﻿// Задача 25: Напишите цикл, который принимает на вход два числа (A и B) и 
+// возводит число A в натуральную степень B.
 
+Console.Write("Input your number_A: ");
+double num_A = int.Parse(Console.ReadLine());
+
+Console.Write("Input your number_B: ");
+double num_B = int.Parse(Console.ReadLine());
+
+Console.WriteLine(Math.Pow(num_A, num_B));
 
