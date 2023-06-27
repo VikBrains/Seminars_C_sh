@@ -15,11 +15,11 @@
 void FillArray(double[] numbers)
 {
     Console.Write("[ ");
-    for(int i = 0; i < numbers.Length; i++)
-        {
-            numbers[i] = Convert.ToDouble(new Random().Next(100,1000)) / 100;
-            Console.Write(numbers[i] + " ");
-        }
+    for (int i = 0; i < numbers.Length; i++)
+    {
+        numbers[i] = Convert.ToDouble(new Random().Next(100, 1000)) / 100;
+        Console.Write(numbers[i] + " ");
+    }
     Console.Write("]");
     Console.WriteLine();
 }
@@ -39,13 +39,13 @@ double max = Int32.MinValue;
 for (int j = 0; j < numbers.Length; j++)
 {
     if (numbers[j] > max)
-        {
-            max = numbers[j];
-        }
+    {
+        max = numbers[j];
+    }
     if (numbers[j] < min)
-        {
-            min = numbers[j];
-        }
+    {
+        min = numbers[j];
+    }
 }
 
 Console.WriteLine($"Total {numbers.Length} numbers.");
