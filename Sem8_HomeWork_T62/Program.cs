@@ -5,19 +5,41 @@
 10  9  8 7 */
 
 
-int n = 4;
-const int cellWitgh = 4;
-int[,] array = new int[n, n];
+Console.Write("\nInput rows number: ");
+int spiral = Convert.ToInt32(Console.ReadLine());
+const int cellWitgh = 2;
 
-int temp = 1;
+
+int[,] array = new int[spiral, spiral];
+
 int i = 0;
 int j = 0;
+int tmp = 1;
 
-
-
-
+while (tmp <= array.GetLength(0) * array.GetLength(1))
+{
+    array[i, j] = tmp;
+    tmp++;
+    if (i <= j + 1 && i + j < array.GetLength(1) - 1)
+    {
+        j++;
+    }
+    else if (i < j && i + j >= array.GetLength(0) - 1)
+    {
+        i++;
+    }
+    else if (i >= j && i + j > array.GetLength(1) - 1)
+    {
+        j--;
+    }
+    else
+    {
+        i--;
+    }
+}
 
 printArray(array);
+Console.WriteLine("==");
 
 void printArray (int[,] array)
 {

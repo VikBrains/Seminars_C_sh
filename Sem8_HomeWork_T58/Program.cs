@@ -20,8 +20,9 @@ Console.WriteLine("= =");
 
 int[,] resultMatrix = new int[rows,columns];
 MultiplyMatrix(arrayA, arrayB, resultMatrix);
-Console.WriteLine($"\nMultiply both matrix: ");
+Console.WriteLine($"\Multiply result for both matrix: ");
 printArray(resultMatrix);
+Console.WriteLine("= =");
 
 void MultiplyMatrix(int[,] arrayA, int[,] arrayB, int[,] resultMatrix)
 {
