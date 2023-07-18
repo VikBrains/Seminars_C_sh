@@ -2,9 +2,9 @@
 M = 1; N = 15 -> 120
 M = 4; N = 8. -> 30*/
 
-Console.Write("Input integer: ");
+Console.Write("Input integer M: ");
 int numStart = int.Parse(Console.ReadLine());
-Console.Write("Input integer: ");
+Console.Write("Input integer N: ");
 int numEnd = int.Parse(Console.ReadLine());
 
 int sum = 0;
